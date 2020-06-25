@@ -176,6 +176,31 @@
   area and you can commit them, git is telling you that 
   you have modified the files since adding them to the staging
   area. 
-  
- * 
+  When you add something to the staging area and you commit that,
+  all of those changes and the structure of that file will be
+  stored within the git repository. 
+  Run another git add .
+  run git status again - no red, only green. 
+  Means all those files were not modified yet since being brought
+  to the staging area. So that means if you perform a commit now,
+  the files as is for this file will be saved. 
+  If you make another change an run git status again, you will
+  get red again. It will give you a warning first. If you perform
+  that commit now, then what you modified will not be part
+  of that commit. All of the changes you made after adding to the staging
+  area will not be commited.
+  Sometimes you put files to the staging area and forgot
+  that you made changes and then commit it, and when it is commited,
+  you will think that all changes are commited but that is not the
+  case. Right before you perform a commit, always perform git 
+  status.
+  Now you can commit: 
+  git commit -m "Website with Header"
+  Now git will commit everything in the staging area. 
+  When you perform a commit, will take all of those files off
+  the staging area. Only after readding them back to the staging
+  area will you be able to commit these changes.
+  Run git init once but git add and git commit you will be runnin
+  a lot.
+  Git won't add files to the staging area that had no changes. 
  */
