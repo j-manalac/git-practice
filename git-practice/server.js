@@ -203,4 +203,14 @@
   Run git init once but git add and git commit you will be runnin
   a lot.
   Git won't add files to the staging area that had no changes. 
+  To see all commands you have used:
+  git log
+  HEAD -> master means most recent commit (it is at the top of
+    the list)
+    Each commit has an ID that ALLOWS YOU TO GO BACK TO TIME. 
+    Each commit generates a unique Id. 
+ Each commit has an ID. 
+Say you want to go back to commit with id a730c12b2648e95b045d78e57fb00c8cc231972b
+Copy the id for the commit you want to go back to. 
+
  */
